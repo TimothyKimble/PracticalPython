@@ -1,0 +1,44 @@
+{
+  "coord":{
+    "lon":-78.9831,
+    "lat":1.2492
+  },
+  "weather":[
+    {
+      "id":801,
+      "main":"Clouds",
+      "description":"few clouds",
+      "icon":"02d"
+    }
+  ],
+  "base":"stations",
+  "main":{
+    "temp":79.86,
+    "feels_like":79.86,
+    "temp_min":79.86,
+    "temp_max":79.86,
+    "pressure":1010,
+    "humidity":76,
+    "sea_level":1010,
+    "grnd_level":1010
+  },
+  "visibility":10000,
+  "wind":{
+    "speed":9.01,
+    "deg":290,
+    "gust":10.33
+  },
+  "clouds":{
+    "all":12
+  },
+  "dt":1642021178,
+  "sys":{
+    "country":"EC",
+    "sunrise":1641986547,
+    "sunset":1642029938
+  },
+  "timezone":-18000,
+  "id":3650312,
+  "name":"Valdez",
+  "cod":200
+}
