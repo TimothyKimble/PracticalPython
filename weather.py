@@ -1,7 +1,10 @@
 import requests
+import os
 
 def get_weather_desc_and_temp():
-    api_key = "9653138eba7d8f14a8ac897d2c1a60f1"
+    os.environ["9653138eba7d8f14a8ac897d2c1a60f1"] = "1"
+    api_key = str(os.environ["9653138eba7d8f14a8ac897d2c1a60f1"])
+
     city = "Valdez"
     url = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+api_key+"&units=imperial"
 
